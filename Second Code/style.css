@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@400;700&display=swap');
+
+body {
+    background-image: url("https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg");
+    font-family: sans-serif;
+}
+
+.back {
+    width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #deb887;
+    text-align: center;
+}
+
+.box {
+    border-top: 4px groove #a52a2a;
+    border-bottom: 4px groove #a52a2a;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+header {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header>h1 {
+    font-family: 'Bebas Neue';
+
+    font-size: 60px;
+    font-weight: bolder;
+    height: 50px;
+    padding-top: 30px;
+}
+
+header>p {
+    font-style: italic;
+    font-weight: 400px;
+}
+
+.titulo {
+    font-family: 'Teko', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    height: 20px;
+    margin-top: 40px;
+}
+
+article p {
+    display: inline-block;
+}
